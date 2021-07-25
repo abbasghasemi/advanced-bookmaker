@@ -1,0 +1,83 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ghasemi.abbas.book">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".general.ApplicationLoader"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="supportsRtl"
+        tools:targetApi="n">
+
+        <activity
+            android:name=".LauncherActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CustomMainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SearchActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity android:name=".FavoriteActivity" />
+        <activity android:name=".SeasonActivity" />
+
+        <activity
+            android:name=".PostActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".VideoActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".components.ImageView"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <receiver
+            android:name=".service.NotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="${applicationId}.intent.action.PREVIOUS_BUTTON" />
+                <action android:name="${applicationId}.intent.action.PAUSE_BUTTON" />
+                <action android:name="${applicationId}.intent.action.PLAY_BUTTON" />
+                <action android:name="${applicationId}.intent.action.NEXT_BUTTON" />
+                <action android:name="${applicationId}.intent.action.OPEN_CLICK" />
+                <action android:name="${applicationId}.intent.action.DELETE_NOTIFICATION" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".service.MusicPlayerUtilities" />
+    </application>
+</manifest>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_sheet_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting"
+                app:tv_bold="true"
+                app:tv_color="@color/textColor" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/dividerColor" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/font"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center|right"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="فونت : ایران سنس"
+                app:tv_color="@color/textTitleColor" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="رنگ پس زمینه:"
+                app:tv_color="@color/textTitleColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/white"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/white_bg" />
+
+                <View
+                    android:id="@+id/sepia"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/sepia_bg" />
+
+                <View
+                    android:id="@+id/dark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/dark_bg" />
+
+            </LinearLayout>
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/t_font_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="اندازه فونت : 25"
+                app:tv_color="@color/textTitleColor" />
+
+            <com.warkiz.widget.IndicatorSeekBar
+                android:id="@+id/font_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:isb_indicator_color="@color/colorAccent"
+                app:isb_thumb_color="@color/colorAccent"
+                app:isb_track_background_color="@color/dividerColor"
+                app:isb_track_background_size="2dp"
+                app:isb_track_progress_color="@color/colorAccent"
+                app:isb_track_progress_size="3dp" />
+
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/t_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="فاصله بین خطوط : 25"
+                app:tv_color="@color/textTitleColor" />
+
+            <com.warkiz.widget.IndicatorSeekBar
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:isb_indicator_color="@color/colorAccent"
+                app:isb_thumb_color="@color/colorAccent"
+                app:isb_ticks_count="10"
+                app:isb_track_background_color="@color/dividerColor"
+                app:isb_track_background_size="2dp"
+                app:isb_track_progress_color="@color/colorAccent"
+                app:isb_track_progress_size="3dp" />
+
+            <LinearLayout
+                android:id="@+id/l_light_filter"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:background="?selectableItemBackground"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/light_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:kswBackDrawable="@drawable/switch_bg"
+                    app:kswThumbDrawable="@drawable/switch_thumb_bg"
+                    app:kswThumbHeight="20dp"
+                    app:kswThumbRangeRatio="2"
+                    app:kswThumbWidth="20dp" />
+
+                <ghasemi.abbas.book.components.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:text="فیلتر نور هنگام مطالعه"
+                    app:tv_color="@color/textTitleColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

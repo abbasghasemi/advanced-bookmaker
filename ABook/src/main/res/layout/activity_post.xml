@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="3dp"
+            android:orientation="horizontal"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/setting"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_setting"
+                app:tint="#ffffff" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/share"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-15dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_share"
+                android:visibility="gone"
+                app:tint="#ffffff" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/fav"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-15dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_favorite"
+                android:visibility="gone"
+                app:tint="#ffffff" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                app:tv_bold="true"
+                app:tv_color="#fff"
+                app:tv_size="13" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/back"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_back"
+                app:tint="#ffffff" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:paddingVertical="10dp"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarThumbVertical="@drawable/scroll_bg"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+        </androidx.core.widget.NestedScrollView>
+
+        <FrameLayout
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/play_pause_click"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="?selectableItemBackgroundBorderless">
+
+                <ghasemi.abbas.book.components.PlayPauseButton
+                    android:id="@+id/play_pause"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/uvv_star_play_progress_seek" />
+            </FrameLayout>
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/music_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/close_music"
+                android:layout_toRightOf="@id/play_pause_click"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                app:tv_color="#fff" />
+
+            <FrameLayout
+                android:id="@+id/close_music"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="?selectableItemBackgroundBorderless">
+
+                <View
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_close" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:visibility="gone">
+
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/search_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/close_search"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                app:tv_color="#fff" />
+
+            <FrameLayout
+                android:id="@+id/close_search"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="?selectableItemBackgroundBorderless">
+
+                <View
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_close" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/blue_light_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1AFFC107"
+        android:visibility="gone" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

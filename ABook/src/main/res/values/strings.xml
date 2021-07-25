@@ -1,0 +1,94 @@
+<resources>
+    <!--app name-->
+    <string name="app_name">قدرتمندترین کتاب ساز</string>
+
+    <!--splash-->
+    <string name="splash_text_1">کاملترین کتاب اندروید خود را با من بنویسید</string>
+    <string name="splash_text_2">توسعه دهنده عباس قاسمی v:3.0</string>
+
+    <!--main-->
+    <string name="content_main">توسعه دهنده و برنامه نویس عباس قاسمی</string>
+    <string name="content_btn">فهرست مطالب</string>
+    <string name="search">جستجو</string>
+    <string name="setting">تنظیمات</string>
+    <string name="fav">علاقه مندی ها</string>
+    <string name="about_us">درباره ما</string>
+    <string name="comment">امتیاز به برنامه</string>
+    <string name="reference">منابع</string>
+
+    <!--menu-->
+    <string name="nav_setting">تنظیمات</string>
+    <string name="nav_search">جستجو</string>
+    <string name="nav_fav">علاقه مندی ها</string>
+    <string name="nav_time">زمان کل مطالعه</string>
+    <string name="nav_about_us">درباره ما</string>
+    <string name="nav_reference">منابع</string>
+    <string name="exit">خروج</string>
+    <!-- parts app-->
+    <string name="title_of_first_season">فصل ها</string>
+    <string name="favorite">علاقه مندی ها</string>
+    <string name="search_view">جستجو</string>
+    <string name="hint_search_view">جستجو</string>
+    <string name="filter_search">فیلتر کردن جستجو</string>
+    <string name="search_in_page">جستجو داخل صفحه</string>
+    <string name="search_all">جستو بین همه مطالب</string>
+    <string name="search_title">جستجو در عنوان ها</string>
+    <string name="search_context">جستجو در متون</string>
+    <string name="dont_search_fav">حذف نشان شده ها از نتایج</string>
+    <string name="search_similar">جستجوی کلمات  مشابه</string>
+    <string name="post_example">متن نمونه: \n تغییرات شما اینگونه نمایش داده می شود.</string>
+    <string name="night_mode">حالت تاریک</string>
+    <string name="night_system">پیشفرض سیستم</string>
+    <string name="night_on">فعال</string>
+    <string name="night_off">غیرفعال</string>
+
+    <!--font-->
+    <string name="select_font">انتخاب فونت</string>
+
+    <string name="font_name_1">فونت سنس</string>
+    <string name="font_normal_1">sans.ttf</string>
+    <string name="font_bold_1">sans_bold.ttf</string>
+
+    <string name="font_name_2">فونت رویا</string>
+    <string name="font_normal_2">roya.ttf</string>
+    <string name="font_bold_2">roya_b.ttf</string>
+
+    <string name="font_name_3">فونت میترا</string>
+    <string name="font_normal_3">mitra.ttf</string>
+    <string name="font_bold_3">mitra_b.ttf</string>
+
+    <string name="font_name_4">فونت زر</string>
+    <string name="font_normal_4">zar.ttf</string>
+    <string name="font_bold_4">zar_b.ttf</string>
+
+    <!--intro-->
+    <string-array name="intro_images"> <!-- !important -->
+        <item>app_image</item>
+        <item>refresh</item>
+        <item>unlimited</item>
+        <item>puzzle</item>
+        <item>coding</item>
+        <item>coloring</item>
+        <item>medal</item>
+    </string-array>
+    <string-array name="intro_titles">
+        <item>کتاب ساز پیشرفته</item>
+        <item>بروزرسانی مادام العمر</item>
+        <item>ایجاد بی نهایت کتاب</item>
+        <item>قابلیت های پیشرفته</item>
+        <item>بدون نیاز به دانش برنامه نویسی</item>
+        <item>شخصی سازی آسان</item>
+        <item>کیفیت برتر</item>
+    </string-array>
+    <string-array name="intro_messages">
+        <item>کاملترین و قدرتمندترین کتاب ساز در دستان شما</item>
+        <item>با وجود رایگان بودن بروزرسانی خواهد شد</item>
+        <item>همه ی این امکانات اکنون رایگان در اختیار شماست</item>
+        <item>امکانات و ابزارهای قدرمتمند در دستان شما</item>
+        <item>با آموزش ویدیویی راه اندازی از 0 تا 100 یک کتاب با شما هستیم</item>
+        <item>امکان تغییر گرافیک به راحتی و کاملا دلخواه</item>
+        <item>یک محصول فوق العاده، کاملا رایگان و بدون رقیب</item>
+    </string-array>
+    <string name="start">بزن بریم</string>
+
+</resources>

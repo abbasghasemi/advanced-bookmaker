@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingRight="10dp"
+    >
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/share_id"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_share"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/copy_id"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="40dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_copy"
+            android:visibility="gone" />
+    </FrameLayout>
+</LinearLayout>

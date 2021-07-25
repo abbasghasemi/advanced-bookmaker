@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="60dp">
+
+    <ImageView
+        android:id="@+id/image_id"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:scaleType="centerInside" />
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center"
+        app:tv_bold="true"
+        app:tv_color="@color/textTitleColor"
+        app:tv_size="22" />
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/message_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:padding="5dp"
+        app:tv_bold="false"
+        app:tv_color="@color/textColor"
+        app:tv_size="19" />
+
+</LinearLayout>

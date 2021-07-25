@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_sheet_bg"
+    android:orientation="vertical">
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/night_mode"
+        app:tv_bold="true"
+        app:tv_color="@color/textColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/dividerColor" />
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/night_system"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/night_system"
+        app:tv_color="@color/textTitleColor" />
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/night_on"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/night_on"
+        app:tv_color="@color/textTitleColor" />
+
+    <ghasemi.abbas.book.components.TextView
+        android:id="@+id/night_off"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/night_off"
+        app:tv_color="@color/textTitleColor" />
+
+
+</LinearLayout>

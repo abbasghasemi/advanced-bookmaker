@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ghasemi.abbas.book.components.TouchImageView
+        android:id="@+id/image"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66000000"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ghasemi.abbas.book.components.TextView
+                android:id="@+id/number"
+                app:tv_color="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:background="?selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:padding="15dp"
+                android:src="@drawable/ic_back" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_header" />
+
+        <RelativeLayout
+            android:id="@+id/nav_setting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_setting"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/setting"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_search"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/search"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_fav"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_favorite"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/favorite"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_time"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_study"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/nav_time"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_comment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_star"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/comment"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_user"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/nav_about_us"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_ref"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_refer"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/nav_reference"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_exit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?selectableItemBackground"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_exit_to_app_24"
+                app:tint="@color/colorAccent" />
+
+            <ghasemi.abbas.book.components.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="44dp"
+                android:gravity="right"
+                android:text="@string/exit"
+                app:tv_bold="true"
+                app:tv_color="@color/textTitleColor" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

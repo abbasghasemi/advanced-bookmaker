@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- رنگ برنامه -->
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <!-- برای حالت ردیفی -->
+    <color name="rowIconColor">#E91E63</color>
+    <color name="rowBackgroundColor">#00000000</color> <!--00000000-->
+    <color name="rowStrokeColor">#E91E63</color>
+    <dimen name="rowStrokeWidth">1dp</dimen>
+    <dimen name="rowBottomLeftRadius">10dp</dimen>
+    <dimen name="rowTopLeftRadius">10dp</dimen>
+    <dimen name="rowTopRightRadius">10dp</dimen>
+    <dimen name="rowBottomRightRadius">10dp</dimen>
+
+    <!-- تغییر ندهید -->
+    <color name="textColor">#333333</color>
+    <color name="textDefaultColor">#FF797979</color>
+    <color name="textTitleColor">#000</color>
+    <color name="dividerColor">#e2e2e2</color>
+    <color name="colorSearchBackground">#efefef</color>
+    <color name="colorSearchStrokeBackground">#d6d6d6</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="colorControlHighlight">#33000000</color>
+</resources>
