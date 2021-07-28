@@ -5,12 +5,10 @@
 package ghasemi.abbas.book;
 
 import android.content.DialogInterface;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
-import com.bumptech.glide.Glide;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.kyleduo.switchbutton.SwitchButton;
 import com.warkiz.widget.IndicatorSeekBar;
@@ -30,7 +28,7 @@ import ghasemi.abbas.book.components.TextView;
 
 public class SettingsActivity extends BaseActivity {
 
-    private TextView test, font, tFontSize, tSpace, nightType,totalSpace;
+    private TextView test, font, tFontSize, tSpace, nightType, totalSpace;
     private IndicatorSeekBar fontSize, space;
     private SwitchButton filter, fullScreen, saveLocation;
     private View white, dark, sepia, blueLightFilter;
@@ -224,30 +222,25 @@ public class SettingsActivity extends BaseActivity {
         long TotalSpace = AndroidUtilities.getFolderSize(getExternalFilesDir(null));
         totalSpace = findViewById(R.id.totalSpace);
         totalSpace.setText(AndroidUtilities.getTotalSpace(TotalSpace));
-        findViewById(R.id.spaceManager).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AndroidUtilities.setCustomFontDialog(new AlertDialog.Builder(SettingsActivity.this)
-                        .setTitle(R.string.app_name)
-                        .setMessage("آیا می خواهید فضای استفاده شده، آزاد گردد؟")
-                        .setPositiveButton("بله", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                AsyncTask.execute(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        Glide.get(SettingsActivity.this).clearMemory();
-                                        Glide.get(SettingsActivity.this).clearDiskCache();
-                                    }
-                                });
-                                AndroidUtilities.deleteCatch();
-                                totalSpace.setText("0 MB");
-                            }
-                        })
-                        .setNegativeButton("خیر", null)
-                        .show());
-            }
-        });
+        if (TotalSpace > 0) {
+            findViewById(R.id.spaceManager).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AndroidUtilities.setCustomFontDialog(new AlertDialog.Builder(SettingsActivity.this)
+                            .setTitle(R.string.app_name)
+                            .setMessage("آیا می خواهید فضای استفاده شده، آزاد گردد؟")
+                            .setPositiveButton("بله", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    AndroidUtilities.deleteCatch();
+                                    totalSpace.setText("0 MB");
+                                }
+                            })
+                            .setNegativeButton("خیر", null)
+                            .show());
+                }
+            });
+        }
     }
 
     private void init2() {
