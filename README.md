@@ -60,8 +60,8 @@ Transform the texts into an advanced android application easily and quickly, you
     [s:-1] --> Reduces text size
     [f:fontname] --> Specifies the font type
     Example:
-    [t][r][red] The text on the left is in red
-    [t][b][html][#ffffff] The green text you contains html
+    [t][l][red] The text on the left is in red
+    [t][b][html][#4caf50] The green text you contains html
 
    #### Add image (online|offline): 
     [t][img][z][o][https://address Or imageName]
