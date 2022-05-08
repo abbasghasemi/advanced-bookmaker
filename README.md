@@ -1,4 +1,8 @@
 ![](media/first.gif)
+
+## زبان ها
+[مشاهده توضیحات فارسی](https://github.com/farasource/advanced-bookmaker/blob/master/README-FA.md)
+
 ## Description
 
 Transform the texts into an advanced android application easily and quickly, your content needs to be defined in the SQLite (offline).
@@ -127,5 +131,5 @@ Transform the texts into an advanced android application easily and quickly, you
     color --> Use #4caf50 Or blue Or red Or green Or yellow Or orange Or purple
   
 ## Author & support
-This project was created by Farasource (Abbas Ghasemi).
+This project was created by [Farasource](https://farasource.com/) (Abbas Ghasemi).
 > You can help us to keep my open source projects up to date!
