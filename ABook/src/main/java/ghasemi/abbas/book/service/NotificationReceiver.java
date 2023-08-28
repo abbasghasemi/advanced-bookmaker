@@ -8,7 +8,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import ghasemi.abbas.book.general.ApplicationLoader;
+import ghasemi.abbas.book.ApplicationLoader;
 
 public class NotificationReceiver extends BroadcastReceiver {
 

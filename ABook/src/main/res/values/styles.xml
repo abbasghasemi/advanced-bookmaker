@@ -10,4 +10,9 @@
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
         <item name="android:navigationBarColor" tools:ignore="NewApi">@color/backgroundColor</item>
     </style>
+
+    <style name="BottomSheetDialogTheme" parent="@style/Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="android:windowBackground">#33000000</item>
+        <item name="android:navigationBarColor">@color/backgroundColor</item>
+    </style>
 </resources>

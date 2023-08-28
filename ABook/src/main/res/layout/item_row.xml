@@ -26,7 +26,7 @@
             android:src="@drawable/ic_arrow_left"
             app:tint="@color/rowIconColor" />
 
-        <ghasemi.abbas.book.components.TextView
+        <ghasemi.abbas.book.ui.components.TextView
             android:id="@+id/title"
             android:layout_width="0dp"
             android:layout_height="match_parent"

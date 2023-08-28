@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:layout_marginRight="10dp"
                 android:background="@color/dividerColor" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/font"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
@@ -48,7 +48,7 @@
                 android:text="فونت : ایران سنس"
                 app:tv_color="@color/textTitleColor" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -84,7 +84,7 @@
 
             </LinearLayout>
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/t_font_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                 app:isb_track_progress_size="3dp" />
 
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/t_space"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
                     app:kswThumbRangeRatio="2"
                     app:kswThumbWidth="20dp" />
 
-                <ghasemi.abbas.book.components.TextView
+                <ghasemi.abbas.book.ui.components.TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center|right"

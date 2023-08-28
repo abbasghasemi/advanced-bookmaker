@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ghasemi.abbas.book.components.GifView
+    <ghasemi.abbas.book.ui.components.GifView
         android:id="@+id/gif_id"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"

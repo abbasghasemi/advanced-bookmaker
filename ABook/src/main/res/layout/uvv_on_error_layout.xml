@@ -12,7 +12,7 @@
         android:tint="#fff"
         android:src="@drawable/sad" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/error_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

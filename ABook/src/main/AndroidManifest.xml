@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name=".general.ApplicationLoader"
+        android:name=".ApplicationLoader"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,11 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
-        tools:replace="supportsRtl"
-        tools:targetApi="n">
+        tools:replace="supportsRtl">
 
         <activity
-            android:name=".LauncherActivity"
+            android:exported="true"
+            android:name=".ui.LauncherActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -31,37 +31,37 @@
         </activity>
 
         <activity
-            android:name=".CustomMainActivity"
+            android:name=".ui.CustomMainActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".SettingsActivity"
+            android:name=".ui.SettingsActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".IntroActivity"
+            android:name=".ui.IntroActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".SearchActivity"
+            android:name=".ui.SearchActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
-        <activity android:name=".FavoriteActivity" />
-        <activity android:name=".SeasonActivity" />
+        <activity android:name=".ui.FavoriteActivity" />
+        <activity android:name=".ui.SeasonActivity" />
 
         <activity
-            android:name=".PostActivity"
+            android:name=".ui.PostActivity"
             android:configChanges="orientation|screenSize" />
 
         <activity
-            android:name=".VideoActivity"
+            android:name=".ui.VideoActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name=".components.ImageView"
+            android:name=".ui.components.ImageView"
             android:configChanges="orientation|screenSize" />
 
         <activity
-            android:name=".WebViewActivity"
+            android:name=".ui.WebViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 
         <receiver

@@ -23,7 +23,7 @@ import java.util.Random;
 import javax.net.ssl.HttpsURLConnection;
 
 import ghasemi.abbas.book.general.AndroidUtilities;
-import ghasemi.abbas.book.general.ApplicationLoader;
+import ghasemi.abbas.book.ApplicationLoader;
 import ghasemi.abbas.book.general.FileLogs;
 import ghasemi.abbas.book.general.TinyData;
 

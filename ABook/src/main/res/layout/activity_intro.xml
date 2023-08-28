@@ -29,7 +29,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/btn_intro_bg">
 
-        <ghasemi.abbas.book.components.TextView
+        <ghasemi.abbas.book.ui.components.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

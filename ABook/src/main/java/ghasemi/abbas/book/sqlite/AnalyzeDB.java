@@ -7,7 +7,7 @@ package ghasemi.abbas.book.sqlite;
 import android.database.sqlite.SQLiteDatabase;
 
 import ghasemi.abbas.book.BuildConfig;
-import ghasemi.abbas.book.general.ApplicationLoader;
+import ghasemi.abbas.book.ApplicationLoader;
 import ghasemi.abbas.book.general.FileLogs;
 import ghasemi.abbas.book.sqlite.sqliteasset.SQLiteAssetHelper;
 

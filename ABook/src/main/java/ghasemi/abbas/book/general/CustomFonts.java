@@ -6,6 +6,7 @@ package ghasemi.abbas.book.general;
 
 import android.graphics.Typeface;
 
+import ghasemi.abbas.book.ApplicationLoader;
 import ghasemi.abbas.book.R;
 
 public enum CustomFonts {

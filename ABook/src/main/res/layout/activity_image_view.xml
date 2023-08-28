@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <ghasemi.abbas.book.components.TouchImageView
+    <ghasemi.abbas.book.ui.components.TouchImageView
         android:id="@+id/image"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize">
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/number"
                 app:tv_color="#fff"
                 android:gravity="center"

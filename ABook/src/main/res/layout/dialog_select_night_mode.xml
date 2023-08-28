@@ -6,7 +6,7 @@
     android:background="@drawable/dialog_sheet_bg"
     android:orientation="vertical">
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_marginRight="10dp"
         android:background="@color/dividerColor" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/night_system"
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -36,7 +36,7 @@
         android:text="@string/night_system"
         app:tv_color="@color/textTitleColor" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/night_on"
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -47,7 +47,7 @@
         android:text="@string/night_on"
         app:tv_color="@color/textTitleColor" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/night_off"
         android:layout_width="match_parent"
         android:layout_height="55dp"

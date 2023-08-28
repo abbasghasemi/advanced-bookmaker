@@ -9,7 +9,7 @@
     android:paddingRight="10dp"
     >
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/text_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

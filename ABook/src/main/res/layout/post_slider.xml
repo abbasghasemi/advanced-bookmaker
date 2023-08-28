@@ -7,7 +7,7 @@
     android:paddingTop="5dp"
     android:paddingBottom="5dp">
 
-    <ghasemi.abbas.book.components.ViewPager
+    <ghasemi.abbas.book.ui.components.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

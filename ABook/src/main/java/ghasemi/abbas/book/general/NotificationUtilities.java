@@ -9,6 +9,8 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Build;
 
+import ghasemi.abbas.book.ApplicationLoader;
+
 
 public class NotificationUtilities {
 

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ghasemi.abbas.book.components.Button
+    <ghasemi.abbas.book.ui.components.Button
         android:id="@+id/button_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -13,7 +13,7 @@
         android:layout_height="180dp"
         android:scaleType="centerInside" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/title_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:tv_color="@color/textTitleColor"
         app:tv_size="22" />
 
-    <ghasemi.abbas.book.components.TextView
+    <ghasemi.abbas.book.ui.components.TextView
         android:id="@+id/message_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

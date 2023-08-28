@@ -26,7 +26,7 @@
                 android:src="@drawable/ic_search"
                 app:tint="#ffffff" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/title"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -68,7 +68,7 @@
             android:layout_marginLeft="5dp"
             android:background="?selectableItemBackgroundBorderless">
 
-            <ghasemi.abbas.book.components.PlayPauseButton
+            <ghasemi.abbas.book.ui.components.PlayPauseButton
                 android:id="@+id/play_pause"
                 android:layout_width="12dp"
                 android:layout_height="12dp"
@@ -76,7 +76,7 @@
                 android:background="@drawable/uvv_star_play_progress_seek" />
         </FrameLayout>
 
-        <ghasemi.abbas.book.components.TextView
+        <ghasemi.abbas.book.ui.components.TextView
             android:id="@+id/music_time"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -126,7 +126,7 @@
             android:visibility="gone"
             app:tint="@color/textTitleColor" />
 
-        <ghasemi.abbas.book.components.TextView
+        <ghasemi.abbas.book.ui.components.TextView
             android:id="@+id/txt_not_found"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

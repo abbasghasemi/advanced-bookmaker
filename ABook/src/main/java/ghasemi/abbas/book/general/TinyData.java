@@ -6,11 +6,12 @@ package ghasemi.abbas.book.general;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
+import ghasemi.abbas.book.ApplicationLoader;
 
 public class TinyData {
 
@@ -18,7 +19,7 @@ public class TinyData {
     private final SharedPreferences sharedPreferences;
 
     private TinyData(Context context) {
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        sharedPreferences = context.getSharedPreferences("bookSprf", Context.MODE_PRIVATE);
     }
 
     public static TinyData getInstance() {

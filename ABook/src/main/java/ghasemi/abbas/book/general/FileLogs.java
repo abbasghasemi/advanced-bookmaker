@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class FileLogs {
     private static final boolean LOG = false;
-    private static final String TAG = "abbas_ghasemi";
+    private static final String TAG = "FileLogs";
 
     public static void e(Exception e) {
         if (LOG) {

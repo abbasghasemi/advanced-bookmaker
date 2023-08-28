@@ -33,7 +33,7 @@
                 android:src="@drawable/ic_setting"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -63,7 +63,7 @@
                 android:src="@drawable/ic_search"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -94,7 +94,7 @@
                 android:src="@drawable/ic_favorite"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -125,7 +125,7 @@
                 android:src="@drawable/ic_study"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -155,7 +155,7 @@
                 android:src="@drawable/ic_star"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -185,7 +185,7 @@
                 android:src="@drawable/ic_user"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -215,7 +215,7 @@
                 android:src="@drawable/ic_refer"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -245,7 +245,7 @@
                 android:src="@drawable/ic_baseline_exit_to_app_24"
                 app:tint="@color/colorAccent" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"

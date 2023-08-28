@@ -34,17 +34,18 @@ import android.widget.Toast;
 
 import java.io.File;
 
+import ghasemi.abbas.book.ApplicationLoader;
 import ghasemi.abbas.book.R;
 
 import static androidx.annotation.Dimension.DP;
-import static ghasemi.abbas.book.general.BuildApp.*;
+import static ghasemi.abbas.book.BuildApp.*;
 
 public class AndroidUtilities {
 
     private static Typeface light, bold;
 
     public static void setCustomFontDialog(AlertDialog alertDialog) {
-        DialogTitle title = alertDialog.findViewById(R.id.alertTitle);
+        DialogTitle title = alertDialog.findViewById(androidx.appcompat.R.id.alertTitle);
         if (title != null) {
             title.setTypeface(FONT_TYPE.getTypefaceBold());
         }

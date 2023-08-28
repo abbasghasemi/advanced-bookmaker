@@ -25,7 +25,7 @@ import java.util.Random;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import ghasemi.abbas.book.components.TouchImageView;
+import ghasemi.abbas.book.ui.components.TouchImageView;
 import ghasemi.abbas.book.general.TinyData;
 
 

@@ -27,7 +27,7 @@
                 android:layout_marginTop="5dp"
                 android:scaleType="fitCenter" />
 
-            <ghasemi.abbas.book.components.TextView
+            <ghasemi.abbas.book.ui.components.TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

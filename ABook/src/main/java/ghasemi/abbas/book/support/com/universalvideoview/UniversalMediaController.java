@@ -40,7 +40,7 @@ import java.util.Formatter;
 import java.util.Locale;
 
 import ghasemi.abbas.book.R;
-import ghasemi.abbas.book.components.TextView;
+import ghasemi.abbas.book.ui.components.TextView;
 
 public class UniversalMediaController extends FrameLayout {
 

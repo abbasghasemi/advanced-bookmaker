@@ -26,17 +26,16 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
-import ghasemi.abbas.book.PostActivity;
+import ghasemi.abbas.book.ui.PostActivity;
 import ghasemi.abbas.book.R;
-import ghasemi.abbas.book.components.MusicPlayer;
-import ghasemi.abbas.book.general.ApplicationLoader;
+import ghasemi.abbas.book.ui.components.MusicPlayer;
+import ghasemi.abbas.book.ApplicationLoader;
 import ghasemi.abbas.book.general.FileLogs;
 import ghasemi.abbas.book.general.NotificationUtilities;
 import ghasemi.abbas.book.support.NotificationDelegate;

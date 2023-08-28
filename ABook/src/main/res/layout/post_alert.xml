@@ -14,7 +14,7 @@
         android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
-        <ghasemi.abbas.book.components.TextView
+        <ghasemi.abbas.book.ui.components.TextView
             android:id="@+id/message_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
