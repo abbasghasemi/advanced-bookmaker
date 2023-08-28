@@ -9,7 +9,7 @@
 
 ### تنظیمات اولیه
 * برای تغییرات و شخصی سازی بیشتر به مسیر BuildApp بروید و آنرا ویرایش کنید.
-`ghasemi.abbas.book.BuildApp`
+`ghasemi.abbas.book`
   
     ```java
     public class BuildApp {

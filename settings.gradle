@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "advanced-bookmaker"
 include ':ABook'
-include ':lib'

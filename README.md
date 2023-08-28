@@ -14,7 +14,7 @@ Transform the texts into an advanced android application easily and quickly, you
 * Need to install [DB Browser for SQLite](https://sqlitebrowser.org/) on Windows/MacOS/Linux
 
 ### Setting up
-* For more changes and personalising go to this path and edit BuildApp file `ghasemi.abbas.book.general` .
+* For more changes and personalising go to this path and edit BuildApp file `ghasemi.abbas.book` .
     ```java
     public class BuildApp {
     
